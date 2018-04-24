@@ -1,0 +1,121 @@
+@media screen and (max-width: 1024px) {
+    .footer-item, .review {
+        width:50%;
+    }
+
+    .team-members-list, .what-we-do-list {
+        width:100%;
+    }
+
+    .header-content {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+    .pic-10, .pic-9 {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team-member-profile {
+        width:33%;
+    }
+
+    .footer-item, .footer-about-us p, .recent-post {
+        width:95%;
+        
+        
+    }
+
+    .footer-contact-us {
+        align-items:stretch;
+        order:-1;
+    }
+
+    .recent-post {
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .recent-post-image {
+        order:1;
+        min-width:3.25rem;
+        margin:0;
+    }
+
+    .recent-post-category {
+        order:2;
+        min-width:5rem;
+        margin:0;
+    }
+
+    .recent-post-title {
+        order:3;
+        white-space: normal;
+
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .header-content {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .pic-9 {
+        display:block;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .header-content{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
+    .menu-top {
+        grid-row:1;
+        grid-column:1/3;
+    }
+
+    .logo {
+        grid-column:1/3;
+        grid-row:2;   
+    }
+
+    .section-item, .logo-container, .team-member-profile, .recent-post, .footer-about-us p, .review, .btn-work, .pics {
+        width:98%;      
+    }
+
+    .pics {
+        height:20.5rem;
+    }
+
+    .section-title, .section-title h2, .section-item p {
+        margin:1%;
+        padding:1%;
+        
+    }
+
+    .latest-work-pics, .happy-client-list {
+        flex-direction: column;
+    }
+
+    .team-member-divider {
+        transform: rotate(90deg);
+        margin:0;
+    }
+
+    .team-member-name {
+        font-size:1.5rem;
+        margin:0;
+    }
+
+    .footer-about-us {
+        text-align:justify;
+    }
+}

@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+
+@import url("css/media-css.css");
+
+body {
+    font-family: "Pt Sans", sans-serif;
+    font-size:1rem;
+    color:rgba(68,68,68,1);
+    user-select:none;
+}
+
+.header-content {
+    width:100%;
+    position: absolute;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;     
+}
+
+.logo {
+    grid-column:2;
+    text-align:center;
+    
+}
+
+.menu-top {
+    
+    grid-column:1;
+    margin-left:2rem;
+    margin-top:1rem;
+}
+
+.search-bar {
+    grid-column:3;
+    margin-top:1rem;
+    margin-right:10%;  
+}
+
+.brand-name {
+
+    font-family: 'Dancing Script', cursive;
+    font-size:1.5rem;
+    color:white;
+    font-weight:bold;
+    margin-top:0.75rem;
+    
+       
+}
+
+a {
+    text-decoration:none;
+}
+
+.brand-name a:visited {
+    color:white;
+}
+
+.menu-top a {
+
+    white-space: nowrap;
+    color:white;
+    text-decoration:none;
+    margin-right:3%;
+    
+      
+}
+
+.menu-top a:hover {
+    border-top: 3px solid rgba(84,209,84,1);
+    font-weight: 700;
+    
+}
+
+input[type="text"], input[type="email"], textarea {
+
+    padding:0.5rem 1rem;
+    border-radius: 10px;
+    border:none;
+    
+
+}
+
+/*FRONT PAGE*/
+
+.front-page {
+    background: url("../images/background.png");
+    background-size: 100% auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    
+}
+
+.header-title {
+    margin-top:20%;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color:white;
+
+}
+
+/* WHAT WE DO */
+
+.section-content {
+    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding:2.5% 0;
+   
+}
+
+.what-we-do-list {
+
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    width:85%;
+}
+
+.section-item {
+
+    width:33%;
+    
+    min-width:225px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:5%;
+    
+}
+
+.section-title {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.section-title h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    color:rgba(129,129,129,1);
+    text-transform:uppercase;
+    text-align:center;
+    white-space: nowrap;
+}
+
+/*DIVIDERS*/
+
+.divider {
+    height:2px;
+    width:2.5rem;
+}
+
+.divider-meet-the-team, .divider-latest-work {
+    background-color:rgba(32,123,32,1);
+}
+
+.divider-recent-posts, .divider-about-us, .divider-contact-us, .divider-happy-clients, .divider-testimonials, .divider-what-we-do {
+    background-color:rgba(129,129,129,1);
+}
+
+.section-subtitle {
+
+    color:rgba(179,179,179,1);
+    text-align:center;
+
+}
+
+.section-item h3 {
+   
+    font-size:1.5rem;
+    color: rgba(129,129,129,1);
+    text-align:center;
+}
+
+.section-item p {
+    text-align:center;
+    padding:0 15%;
+}
+
+
+.section-image {
+    height:8.5rem;
+    width:8.5rem;
+    background-color:rgba(225,243,225,1);
+    border-radius:15px;
+
+        
+}
+
+.section-image i {
+    font-size:450%;
+    color:rgba(84,209,84,1);
+    padding:25%;
+}
+
+/*LATEST WORK */
+
+.latest-work {
+    background-color: rgba(84,209,84,1);   
+}
+
+.latest-work-content {   
+    padding:2.5% 0;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.latest-work-title h2, .latest-work-title p {
+    color:rgba(32,123,32,1);
+}
+
+.latest-work-pics {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    width:80%; 
+    justify-content:space-between;  
+}
+
+.pics {
+    width:18.5%;
+    min-width:10rem;
+    min-height:11rem;
+    margin-bottom:5%;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.pic-1 {
+    background-image: url("../images/our-latest-work-bug.png");
+}
+
+.pic-2 {
+    background-image: url("../images/our-latest-work-cake.png");
+}
+
+.pic-3 {
+    background-image: url("../images/our-latest-work-cat.png");
+
+}
+
+.pic-4 {
+    background-image: url("../images/our-latest-work-code.png");
+}
+
+.pic-5 {
+    background-image: url("../images/our-latest-work-green.png");
+}
+
+.pic-6 {
+    background-image: url("../images/our-latest-work-kitchen.png");
+    
+}
+
+.pic-7 {
+    background-image: url("../images/our-latest-work-nail.png");
+    
+}
+
+.pic-8 {
+    background-image: url("../images/our-latest-work-trees.png");
+    
+}
+
+.pic-9 {
+    background-image: url("../images/our-latest-work-workplace.png");
+    
+}
+
+.pic-10 {
+    background-image: url("../images/our-latest-work-workplace2.png");
+    
+}
+
+/* TESTEMONIALS */
+
+.cite-image {
+    width:2.5rem;
+    height:2.5rem;
+    border-radius:50%;
+    background-color: rgba(129,129,129,1);
+}
+
+.testimonial-content {
+    padding:2.5% 0;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+.review {
+    text-align: center;
+    width:33%;
+}
+
+.cite-image {
+    float:left;
+    margin-right:1rem;
+    background: url("../images/Herp.png") 100% 100%;
+}
+
+.review-author {
+
+    white-space: nowrap;
+}
+
+.review-author-name {
+    font-weight: 700;
+}
+
+.review-author-job {
+    color:rgba(204,204,204,1);
+}
+
+/*HAPPY CLIENT*/
+
+.happy-client-content {
+
+    padding:2.5% 0;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+    background-color:rgba(241,241,241,1);
+}
+
+.happy-client-list {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-around; 
+
+    width:75%;  
+}
+
+.logo-container {
+    margin:2.5% 0;
+    width:21%;
+    min-width:10rem;
+    height: 4.25rem;
+    background-size:auto 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+     
+
+}
+
+
+.google {
+   background-image:url("../images/logo/293px-Intel-logo.png");
+}
+
+.yahoo {
+    background-image:url("../images/logo/Yahoo_Logo.png");
+    background-size:100% auto;
+}
+
+.msft {
+    background-image:url("../images/logo/MSFT_logo_png.png");
+    background-size:100% auto;
+
+}
+
+.intel {
+    background-image:url("../images/logo/293px-Intel-logo.png");
+
+}
+
+.qualcom {
+    background-image:url("../images/logo/800px-Googlelogo.png");
+}
+
+.cisco {
+    background-image:url("../images/logo/800px-Cisco_logo.png");
+    background-size:100% auto;
+}
+
+.apple{
+    background-image:url("../images/logo/Apple-logo.png");
+}
+
+.asus {
+    background-image:url("../images/logo/ASUS_Logo.png");
+    background-size:100% auto;
+}
+
+
+/*TEAM MEMBER*/
+
+
+
+.team-content {
+    background-color:rgba(84,209,84,1);
+    
+    padding:2.5% 0;
+    display:flex;
+    flex-direction: column;
+    align-items:center;   
+}
+
+.meet-team {
+    width:100%;
+    
+}
+
+.meet-team h2, .meet-team p {
+    color:rgba(32,123,32,1);
+}
+
+.team-members-list {
+    width:60%;
+    
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.team-member-profile {
+    width:20%;
+    min-width:10rem;
+
+
+
+    padding:2.5% 0;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.team-member-image {
+    width:7.75rem;
+    height:7.75rem;
+    background: url('../images/team/team-sprite.png') no-repeat;
+
+    min-height:7.75rem;
+    border-radius:50%;
+    background-color: rgba(129,129,129,1);
+}
+
+.krisna {
+    background-position: -10px -0px;
+}
+
+.gabriel {
+    background-position: -144px -0px;
+}
+
+.adik {
+    background-position: -10px -134px;
+}
+
+.zan {
+    background-position: -144px -134px;
+
+}
+
+.faizad {
+    background-position: -10px -268px;
+
+}
+
+.team-member-divider {
+    width:2px;
+    height:4.5rem;
+    background-color:rgba(32,123,32,1);
+    margin:5% 0;
+}
+
+.team-member-name {
+    color:white;
+}
+
+.team-member-social {
+    width:84px;
+    height:1.5rem;
+    background-color: rgba(197,233,197,1);
+    border-radius:15px;
+    margin:2.5% 0;
+    text-align:center;
+    padding:1.5% 0; 
+}
+
+.team-member-social i {
+    font-size:0.75rem;
+    vertical-align:middle;
+    padding:0.25rem;
+    
+    border-radius:50%;
+    color:white;
+    
+}
+
+.fa-twitter {
+    background-color: rgba(0,132,237,1);
+}
+
+.fa-behance {
+    background-color: rgba(0,97,255,1);
+
+}
+
+.fa-basketball-ball {
+    background-color:rgba(232,85,141,1);
+
+}
+
+
+
+/* FOOTER */
+
+.footer-content {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+
+    background-color:rgba(51,51,51,1);
+    color:rgba(204,204,204,1);
+}
+
+.footer-title h2 {
+    color:rgba(221,221,221,1);
+}
+
+.footer-item {
+    
+    width:30%;
+    min-width:320px;
+    
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.footer-about-us {
+    text-align:center;
+}
+
+.footer-about-us p{
+    width:80%;
+
+}
+
+.recent-post {
+    margin:1% 0;
+    
+}
+
+.recent-post-image {
+    width:3.25rem;
+    height:3.25rem;
+    background-color:black;
+
+    
+    float:left;
+    margin-right:2.5%;
+    background-size:cover;
+    
+}
+
+.bug {
+    background-image:url("../images/our-latest-work-bug.png");
+}
+
+.workplace {
+    background-image:url("../images/our-latest-work-workplace2.png");
+}
+
+.nail {
+    background-image:url("../images/our-latest-work-nail.png");
+}
+
+.grass {
+    background-image:url("../images/our-latest-work-green.png");
+}
+
+.kitchen{
+    background-image:url("../images/our-latest-work-green.png");
+}
+
+.recent-post-title {
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+
+
+}
+
+.recent-post-category {
+    text-align: center;
+    padding:0.25rem;
+    color:white;
+    border-radius:5px;
+    float:left;
+    margin:2.5% 0%;
+    white-space: nowrap;
+    
+
+}
+
+.magazine {
+    background-color:rgba(84,209,84,1);
+}
+
+.ui-design {
+    background-color:rgba(255,186,0,1);
+}
+
+.photo {
+    background-color:rgba(0,132,237,1);
+}
+
+.book {
+    background-color:rgba(243,77,4,1);
+}
+
+.footer-contact-us p {
+    font-size:0.875rem;
+    text-align:center;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items:stretch;
+}
+
+textarea, footer input[type = "text"], footer input[type = "email"], footer input[type= "submit"]  {
+    margin:1% 0;
+    
+    
+    border-radius:0;
+    background-color: rgba(68,68,68,1);
+    
+}
+
+textarea {
+    resize: none;
+    color:rgba(204,204,204,1);   
+}
+
+footer input[type= "submit"] {
+    background-color:rgba(84,209,84,1);
+    border:none;
+    color:white;
+    padding: 2.5% 0;
+}
+
+.sub-footer {
+    display:flex;
+    flex-direction: column;
+    background-color:rgba(34,34,34,1);  
+}
+
+.sub-footer-title h2 {
+    color:rgba(17,17,17,1);
+}
+
+.sub-footer-list {
+    display: grid;
+    width:85%;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap:1rem;
+}
+
+.sub-footer-item {
+    background:center no-repeat;
+    min-height: 10rem;
+
+}
+
+.image-1 {
+    background-image:url("../images/cnn.png");
+}
+
+.image-2 {
+    background-image:url("../images/TechCrunch_Logo_2013.png");
+    
+}
+
+.image-3 {
+    background-image:url("../images/300px-BBC.png");
+    background-size:auto;
+    
+}
+
+.image-4 {
+    background-image:url("../images/The_New_York_Times.png");
+    background-size:100% auto;
+    
+}
+
+
+
+
+.copyright {
+    
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+
