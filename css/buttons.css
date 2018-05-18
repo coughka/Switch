@@ -1,0 +1,88 @@
+/*BUTTON */
+
+.btn-work {
+    
+    margin:2.5% 0;
+    padding:1% 2.5%;
+    font-size:1rem;
+    border:none;
+    border-radius:15px;
+    text-align:center;
+    
+    
+}
+
+.btn-front {
+   
+    margin-bottom:5%;
+    background-color:rgba(84,209,84,1);
+    display:inline-block;
+    height:1.75rem;
+    color:white; 
+    font-size:1.25rem;
+    text-transform: uppercase;
+   
+}
+
+.btn-front:hover {
+    background-color: white;
+    color:rgba(84,209,84,1);
+}
+
+.btn-scroll {
+
+    background-color:rgba(192,192,192,1);
+    color:black;
+    height:1.25rem; 
+    margin-bottom:5%;
+    padding:0.25% 0.5%;
+    width:auto;
+    text-transform: lowercase; 
+}
+
+.btn-scroll:hover {
+    background-color:black;
+    color: rgba(192,192,192,1);
+}
+
+.section-button {
+    background-color:rgba(84,209,84,1);
+    color:white;
+}
+
+.section-button:hover {
+    background-color:rgba(32,123,32,1);
+}
+
+.btn-team {
+    background-color:rgba(84,209,84,1);
+}
+
+.btn-team:hover {
+    background-color:rgba(32,123,32,1);
+}
+
+.latest-work-btn {
+    background-color:rgba(43,155,43,1);
+    color:white;
+}
+
+.latest-work-btn:hover {
+    background-color:rgba(32,123,32,1);
+}
+
+.btn-client {
+    background-color: rgba(221,221,221,1);
+    color:rgba(165,157,157,1);
+}
+
+.btn-client:hover {
+    background-color: rgba(165,157,157,1);
+    color:rgba(221,221,221,1);
+}
+
+.btn-team {
+    background-color:rgba(43,155,43,1);
+    color:white;
+
+}
